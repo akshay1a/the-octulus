@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link href="/" className="hidden md:block ">
           Home
         </Link>
-        <Link href="/movies"><i className="fas fa-heart" />Movies</Link>
+        <Link href="/movies">Movies</Link>
         <Link href="/tv-shows">TV Shows</Link>
       </div>
     </nav>

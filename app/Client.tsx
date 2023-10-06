@@ -6,10 +6,6 @@ export default function Client({ data, data2 }: { data: any; data2: any }) {
   return (
     <>
       <div className="flex flex-col gap-10 p-5">
-        {/* <div className="bg-inherit">
-          {/* <MovieCard data={data} /> */}
-        {/* </div> */}
-
         <h2 className="text-2xl font-bold">Top Trending Today</h2>
         <div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-5 bg-inherit">
